@@ -30,8 +30,8 @@ export const API_ENDPOINTS = {
   JOB_BY_ID: (id) => `/jobs/${id}`,
 
   // Auth endpoints (placeholder for future use)
-  LOGIN: "/auth/login",
-  REGISTER: "/auth/register",
+  LOGIN: "/auth/login/public",
+  REGISTER: "/auth/register/public",
   LOGOUT: "/auth/logout",
 
   // User endpoints
