@@ -1,0 +1,4 @@
+2026-05-27 13:22:04.452904+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update companies set rating=5.0 where id=1\000d\000a[*]select * from companies"; SQL statement:
+update companies set rating=5.0 where id=1
+select * from companies [42000-240]
